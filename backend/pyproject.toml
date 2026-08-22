@@ -1,0 +1,13 @@
+﻿[project]
+name = "jarvis-ai"
+version = "1.0.0"
+description = "JARVIS AI Assistant"
+requires-python = ">=3.11,<3.14"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "google-genai",
+    "tavily-python",
+    "python-dotenv"
+]
