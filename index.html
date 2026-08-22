@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header>
+        <div>
+            <h1>JARVIS</h1>
+            <p id="status">● SYSTEM ONLINE</p>
+        </div>
+
+        <select id="mode">
+            <option value="auto">AUTO</option>
+            <option value="news">NEWS</option>
+            <option value="report">REPORT</option>
+            <option value="history">HISTORY</option>
+            <option value="research">RESEARCH</option>
+<option value="trade">TRADE INTELLIGENCE</option>
+        </select>
+    </header>
+
+    <main id="chat">
+
+        <div class="message jarvis">
+            <strong>JARVIS</strong>
+            <p>Assalam-o-Alaikum Sir. JARVIS online hai. Aap mujh se Urdu, Roman Urdu ya English mein baat kar sakte hain.</p>
+        </div>
+
+    </main>
+
+    <div class="controls">
+
+        <button id="micButton" title="Speak to JARVIS">🎤</button>
+
+        <input
+            id="question"
+            type="text"
+            placeholder="JARVIS se kuch poochiye..."
+        >
+
+        <button id="sendButton">
+            SEND
+        </button>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
