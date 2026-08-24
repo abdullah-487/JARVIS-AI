@@ -2,7 +2,7 @@
 name = "jarvis-ai"
 version = "1.0.0"
 description = "JARVIS AI Assistant"
-requires-python = "==3.12.*"
+requires-python = ">=3.12,<3.13"
 
 dependencies = [
     "fastapi[standard]>=0.115.0",
@@ -10,6 +10,3 @@ dependencies = [
     "tavily-python",
     "python-dotenv"
 ]
-
-[tool.fastapi]
-entrypoint = "app.main:app"
