@@ -1,5 +1,4 @@
-fastapi
-uvicorn[standard]
+fastapi[standard]
 google-genai
 tavily-python
 python-dotenv
